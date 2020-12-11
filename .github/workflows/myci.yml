@@ -7,12 +7,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
   
-  steps:
-  - name: Checkout main code
-    uses: actions/checkout@v2.2.0
+    steps:
+    - name: Checkout main code
+      uses: actions/checkout@v2.2.0
     
-  - name: Checkout doc repos
-    run: |
-      cd docs
-      git clone https://github.com/christophernhill/ga_linkedrepos_doca
-      git clone https://github.com/christophernhill/ga_linkedrepos_docb
+    - name: Checkout doc repos
+      run: |
+        cd docs
+        git clone https://github.com/christophernhill/ga_linkedrepos_doca
+        git clone https://github.com/christophernhill/ga_linkedrepos_docb
