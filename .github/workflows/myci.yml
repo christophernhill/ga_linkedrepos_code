@@ -18,3 +18,4 @@ jobs:
         cd docs
         git clone https://github.com/christophernhill/ga_linkedrepos_doca
         git clone https://github.com/christophernhill/ga_linkedrepos_docb
+        /bin/ls -altr
